@@ -1,0 +1,4 @@
+ <dataSource type="JdbcDataSource"  driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/base_datos?useUnicode=true&amp;zeroDateTimeBehavior=convertToNull&amp;autoReconnect=true&amp;characterEncoding=UTF-8&amp;characterSetResults=UTF-8"
+       user="usuario_db" password="password_db" />
+
+

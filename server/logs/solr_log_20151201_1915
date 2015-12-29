@@ -1,0 +1,160 @@
+2015-12-02 00:14:36.838 INFO  (main) [   ] o.e.j.u.log Logging initialized @1185ms
+2015-12-02 00:14:37.515 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-12-02 00:14:37.535 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-12-02 00:14:37.538 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/home/ronald/Descargas/solr-5.3.1/server/contexts/] at interval 0
+2015-12-02 00:14:38.407 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-12-02 00:14:38.438 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@271053e1{/solr,file:/home/ronald/Descargas/solr-5.3.1/server/solr-webapp/webapp/,STARTING}{/home/ronald/Descargas/solr-5.3.1/server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-12-02 00:14:38.483 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1164371389@4566e5bd
+2015-12-02 00:14:38.588 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-12-02 00:14:38.588 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/ronald/Descargas/solr-5.3.1/server/solr
+2015-12-02 00:14:38.595 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/ronald/Descargas/solr-5.3.1/server/solr/'
+2015-12-02 00:14:38.972 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/ronald/Descargas/solr-5.3.1/server/solr/solr.xml
+2015-12-02 00:14:39.370 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: /home/ronald/Descargas/solr-5.3.1/server/solr
+2015-12-02 00:14:39.534 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1276261147
+2015-12-02 00:14:39.534 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/ronald/Descargas/solr-5.3.1/server/solr/]
+2015-12-02 00:14:39.534 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: /home/ronald/Descargas/solr-5.3.1/server/solr/lib
+2015-12-02 00:14:39.534 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: /home/ronald/Descargas/solr-5.3.1/server/solr/lib).
+2015-12-02 00:14:39.615 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-12-02 00:14:40.340 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-12-02 00:14:40.342 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-12-02 00:14:40.342 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-12-02 00:14:40.377 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-12-02 00:14:40.377 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-12-02 00:14:40.543 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath /home/ronald/Descargas/solr-5.3.1/server/solr
+2015-12-02 00:14:40.618 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=avisos, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/ronald/Descargas/solr-5.3.1/server/solr/avisos, absoluteInstDir=/home/ronald/Descargas/solr-5.3.1/server/solr/avisos/, dataDir=data/}
+2015-12-02 00:14:40.618 INFO  (main) [   ] o.a.s.c.CoresLocator Found core avisos in /home/ronald/Descargas/solr-5.3.1/server/solr/avisos/
+2015-12-02 00:14:40.795 INFO  (main) [   ] o.a.s.c.CoresLocator Found 1 core definitions
+2015-12-02 00:14:40.807 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/ronald/Descargas/solr-5.3.1/server/solr/avisos/'
+2015-12-02 00:14:40.807 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/home/ronald/Descargas/solr-5.3.1/server
+2015-12-02 00:14:40.807 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-12-02 00:14:41.164 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@271053e1{/solr,file:/home/ronald/Descargas/solr-5.3.1/server/solr-webapp/webapp/,AVAILABLE}{/home/ronald/Descargas/solr-5.3.1/server/solr-webapp/webapp}
+2015-12-02 00:14:41.350 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@68c9133c{HTTP/1.1}{0.0.0.0:8983}
+2015-12-02 00:14:41.350 INFO  (main) [   ] o.e.j.s.Server Started @5697ms
+2015-12-02 00:14:41.390 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-12-02 00:14:41.392 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-12-02 00:14:41.396 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-12-02 00:14:41.396 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-12-02 00:14:41.397 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-12-02 00:14:41.397 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-12-02 00:14:41.397 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-12-02 00:14:41.397 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-12-02 00:14:41.397 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-12-02 00:14:41.397 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-12-02 00:14:41.397 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-12-02 00:14:41.397 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-12-02 00:14:41.397 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-12-02 00:14:41.397 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-12-02 00:14:41.397 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-12-02 00:14:41.397 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-12-02 00:14:41.397 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-12-02 00:14:41.397 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-12-02 00:14:41.398 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-12-02 00:14:41.398 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-12-02 00:14:41.398 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-12-02 00:14:41.398 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-12-02 00:14:41.398 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-12-02 00:14:41.398 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-12-02 00:14:41.398 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-12-02 00:14:41.398 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-12-02 00:14:41.398 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-12-02 00:14:41.398 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-12-02 00:14:41.398 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-12-02 00:14:41.398 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-12-02 00:14:41.398 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-12-02 00:14:41.399 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-12-02 00:14:41.399 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-12-02 00:14:41.399 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-12-02 00:14:41.399 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-12-02 00:14:41.413 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/dist/solr-cell-5.3.1.jar' to classloader
+2015-12-02 00:14:41.413 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-12-02 00:14:41.414 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-12-02 00:14:41.414 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-12-02 00:14:41.414 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-12-02 00:14:41.414 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-12-02 00:14:41.414 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-12-02 00:14:41.414 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-12-02 00:14:41.414 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-12-02 00:14:41.414 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/dist/solr-clustering-5.3.1.jar' to classloader
+2015-12-02 00:14:41.414 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-12-02 00:14:41.414 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-12-02 00:14:41.415 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/dist/solr-langid-5.3.1.jar' to classloader
+2015-12-02 00:14:41.415 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-12-02 00:14:41.415 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-12-02 00:14:41.415 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-12-02 00:14:41.415 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-12-02 00:14:41.415 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/dist/solr-velocity-5.3.1.jar' to classloader
+2015-12-02 00:14:41.416 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/contrib/dataimporthandler/lib/mysql-connector-java-5.0.8-bin.jar' to classloader
+2015-12-02 00:14:41.416 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/dist/solr-dataimporthandler-extras-5.3.1.jar' to classloader
+2015-12-02 00:14:41.416 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Descargas/solr-5.3.1/dist/solr-dataimporthandler-5.3.1.jar' to classloader
+2015-12-02 00:14:42.752 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2015-12-02 00:14:42.902 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-12-02 00:14:42.935 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /home/ronald/Descargas/solr-5.3.1/server/solr/avisos/conf/managed-schema
+2015-12-02 00:14:42.964 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [avisos] Schema name=example-data-driven-schema
+2015-12-02 00:14:43.423 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema query parser default operator is OR
+2015-12-02 00:14:43.428 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-12-02 00:14:43.562 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-12-02 00:14:43.565 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-12-02 00:14:43.578 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/ronald/Descargas/solr-5.3.1/server/solr/avisos/conf'
+2015-12-02 00:14:43.579 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'avisos' using configuration from instancedir /home/ronald/Descargas/solr-5.3.1/server/solr/avisos/
+2015-12-02 00:14:43.579 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-12-02 00:14:43.602 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.SolrCore [[avisos] ] Opening new SolrCore at [/home/ronald/Descargas/solr-5.3.1/server/solr/avisos/], dataDir=[null]
+2015-12-02 00:14:43.617 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-12-02 00:14:43.619 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.SolrCore [[avisos] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-12-02 00:14:43.619 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.SolrCore [[avisos] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-12-02 00:14:43.643 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.CachingDirectoryFactory return new directory for /home/ronald/Descargas/solr-5.3.1/server/solr/avisos/data
+2015-12-02 00:14:43.644 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.SolrCore New index directory detected: old=null new=/home/ronald/Descargas/solr-5.3.1/server/solr/avisos/data/index/
+2015-12-02 00:14:43.644 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.CachingDirectoryFactory return new directory for /home/ronald/Descargas/solr-5.3.1/server/solr/avisos/data/index
+2015-12-02 00:14:43.653 ERROR (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.SolrCore [avisos] Solr index directory '/home/ronald/Descargas/solr-5.3.1/server/solr/avisos/data/index/' is locked.  Throwing exception.
+2015-12-02 00:14:43.653 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.SolrCore [avisos]  CLOSING SolrCore org.apache.solr.core.SolrCore@1be3f14f
+2015-12-02 00:14:43.653 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.u.SolrCoreState Closing SolrCoreState
+2015-12-02 00:14:43.653 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2015-12-02 00:14:43.653 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.SolrCore [avisos] Closing main searcher on request.
+2015-12-02 00:14:43.653 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2015-12-02 00:14:43.670 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.CachingDirectoryFactory looking to close /home/ronald/Descargas/solr-5.3.1/server/solr/avisos/data/index [CachedDir<<refCount=0;path=/home/ronald/Descargas/solr-5.3.1/server/solr/avisos/data/index;done=false>>]
+2015-12-02 00:14:43.670 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.CachingDirectoryFactory Closing directory: /home/ronald/Descargas/solr-5.3.1/server/solr/avisos/data/index
+2015-12-02 00:14:43.671 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.CachingDirectoryFactory looking to close /home/ronald/Descargas/solr-5.3.1/server/solr/avisos/data [CachedDir<<refCount=0;path=/home/ronald/Descargas/solr-5.3.1/server/solr/avisos/data;done=false>>]
+2015-12-02 00:14:43.671 INFO  (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.CachingDirectoryFactory Closing directory: /home/ronald/Descargas/solr-5.3.1/server/solr/avisos/data
+2015-12-02 00:14:43.672 ERROR (coreLoadExecutor-6-thread-1) [   x:avisos] o.a.s.c.CoreContainer Error creating core [avisos]: Index locked for write for core 'avisos'. Solr now longer supports forceful unlocking via 'unlockOnStartup'. Please verify locks manually!
+org.apache.solr.common.SolrException: Index locked for write for core 'avisos'. Solr now longer supports forceful unlocking via 'unlockOnStartup'. Please verify locks manually!
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:820)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:659)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:723)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:443)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:434)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.lucene.store.LockObtainFailedException: Index locked for write for core 'avisos'. Solr now longer supports forceful unlocking via 'unlockOnStartup'. Please verify locks manually!
+	at org.apache.solr.core.SolrCore.initIndex(SolrCore.java:528)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:761)
+	... 9 more
+2015-12-02 00:14:43.697 ERROR (coreContainerWorkExecutor-2-thread-1) [   ] o.a.s.c.CoreContainer Error waiting for SolrCore to be created
+java.util.concurrent.ExecutionException: org.apache.solr.common.SolrException: Unable to create core [avisos]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.apache.solr.core.CoreContainer$2.run(CoreContainer.java:472)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [avisos]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:737)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:443)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:434)
+	... 5 more
+Caused by: org.apache.solr.common.SolrException: Index locked for write for core 'avisos'. Solr now longer supports forceful unlocking via 'unlockOnStartup'. Please verify locks manually!
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:820)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:659)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:723)
+	... 7 more
+Caused by: org.apache.lucene.store.LockObtainFailedException: Index locked for write for core 'avisos'. Solr now longer supports forceful unlocking via 'unlockOnStartup'. Please verify locks manually!
+	at org.apache.solr.core.SolrCore.initIndex(SolrCore.java:528)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:761)
+	... 9 more
+2015-12-02 00:15:40.248 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@68c9133c{HTTP/1.1}{0.0.0.0:8983}
+2015-12-02 00:15:40.249 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1276261147
+2015-12-02 00:15:40.250 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@271053e1{/solr,file:/home/ronald/Descargas/solr-5.3.1/server/solr-webapp/webapp/,UNAVAILABLE}{/home/ronald/Descargas/solr-5.3.1/server/solr-webapp/webapp}
