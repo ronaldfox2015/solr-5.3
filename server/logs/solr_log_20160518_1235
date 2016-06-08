@@ -1,0 +1,114 @@
+2016-05-18 17:35:03.102 INFO  (main) [   ] o.e.j.u.log Logging initialized @691ms
+2016-05-18 17:35:03.512 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2016-05-18 17:35:03.531 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2016-05-18 17:35:03.533 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/home/ronald/Sistemas/solr-trabajobusco/server/contexts/] at interval 0
+2016-05-18 17:35:03.948 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-05-18 17:35:03.981 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@271053e1{/solr,file:/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp/,STARTING}{/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-05-18 17:35:03.986 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1164371389@4566e5bd
+2016-05-18 17:35:04.026 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-05-18 17:35:04.026 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/ronald/Sistemas/solr-trabajobusco/server/solr
+2016-05-18 17:35:04.034 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/ronald/Sistemas/solr-trabajobusco/server/solr/'
+2016-05-18 17:35:04.221 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/ronald/Sistemas/solr-trabajobusco/server/solr/solr.xml
+2016-05-18 17:35:04.500 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: /home/ronald/Sistemas/solr-trabajobusco/server/solr
+2016-05-18 17:35:04.600 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1276261147
+2016-05-18 17:35:04.600 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/]
+2016-05-18 17:35:04.600 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: /home/ronald/Sistemas/solr-trabajobusco/server/solr/lib
+2016-05-18 17:35:04.600 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: /home/ronald/Sistemas/solr-trabajobusco/server/solr/lib).
+2016-05-18 17:35:04.665 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2016-05-18 17:35:05.268 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-05-18 17:35:05.269 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-05-18 17:35:05.270 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-05-18 17:35:05.271 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-05-18 17:35:05.271 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-05-18 17:35:05.388 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath /home/ronald/Sistemas/solr-trabajobusco/server/solr
+2016-05-18 17:35:05.405 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=token, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/token, absoluteInstDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/token/, dataDir=data/}
+2016-05-18 17:35:05.405 INFO  (main) [   ] o.a.s.c.CoresLocator Found core token in /home/ronald/Sistemas/solr-trabajobusco/server/solr/token/
+2016-05-18 17:35:05.427 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=avisos, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos, absoluteInstDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/, dataDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/data/}
+2016-05-18 17:35:05.427 INFO  (main) [   ] o.a.s.c.CoresLocator Found core avisos in /home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/
+2016-05-18 17:35:05.427 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=avisos, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/postulacion, absoluteInstDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/postulacion/, dataDir=/home/ronald/Sistemas/solr-5.3/server/solr/avisos/data/}
+2016-05-18 17:35:05.427 INFO  (main) [   ] o.a.s.c.CoresLocator Found core avisos in /home/ronald/Sistemas/solr-trabajobusco/server/solr/postulacion/
+2016-05-18 17:35:05.428 INFO  (main) [   ] o.a.s.c.CoresLocator Found 3 core definitions
+2016-05-18 17:35:05.430 ERROR (main) [   ] o.a.s.s.SolrDispatchFilter Could not start Solr. Check solr/home property and the logs
+2016-05-18 17:35:05.431 ERROR (main) [   ] o.a.s.c.SolrCore null:org.apache.solr.common.SolrException: Found multiple cores with the name [avisos], with instancedirs [/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/] and [/home/ronald/Sistemas/solr-trabajobusco/server/solr/postulacion/]
+	at org.apache.solr.core.CoreContainer.checkForDuplicateCoreNames(CoreContainer.java:507)
+	at org.apache.solr.core.CoreContainer.load(CoreContainer.java:424)
+	at org.apache.solr.servlet.SolrDispatchFilter.createCoreContainer(SolrDispatchFilter.java:132)
+	at org.apache.solr.servlet.SolrDispatchFilter.init(SolrDispatchFilter.java:109)
+	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:138)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:298)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:41)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:186)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:498)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:146)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:180)
+	at org.eclipse.jetty.deploy.providers.WebAppProvider.fileAdded(WebAppProvider.java:461)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:64)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:609)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:528)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:391)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:313)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:150)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:560)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:235)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1255)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:321)
+	at org.eclipse.jetty.start.Main.start(Main.java:817)
+	at org.eclipse.jetty.start.Main.main(Main.java:112)
+
+2016-05-18 17:35:05.431 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-05-18 17:35:05.456 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@271053e1{/solr,file:/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp/,AVAILABLE}{/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp}
+2016-05-18 17:35:05.541 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@33065d67{HTTP/1.1}{0.0.0.0:8988}
+2016-05-18 17:35:05.541 INFO  (main) [   ] o.e.j.s.Server Started @3131ms
+2016-05-18 17:35:15.380 INFO  (qtp428746855-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1463592915353} status=0 QTime=9 
+2016-05-18 17:35:15.437 INFO  (qtp428746855-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1463592915415} status=0 QTime=16 
+2016-05-18 17:35:15.450 INFO  (qtp428746855-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463592915447} status=0 QTime=0 
+2016-05-18 17:35:17.285 INFO  (qtp428746855-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1463592917280} status=0 QTime=0 
+2016-05-18 17:35:17.340 INFO  (qtp428746855-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1463592917306} status=0 QTime=3 
+2016-05-18 17:35:17.351 INFO  (qtp428746855-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463592917346} status=0 QTime=0 
+2016-05-18 17:35:18.394 INFO  (qtp428746855-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1463592917936} status=0 QTime=0 
+2016-05-18 17:35:18.591 INFO  (qtp428746855-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1463592918512} status=0 QTime=75 
+2016-05-18 17:35:19.417 INFO  (qtp428746855-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1463592919404} status=0 QTime=0 
+2016-05-18 17:35:19.454 INFO  (qtp428746855-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1463592919440} status=0 QTime=11 
+2016-05-18 17:35:19.558 INFO  (qtp428746855-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463592919463} status=0 QTime=0 
+2016-05-18 17:35:20.467 INFO  (qtp428746855-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1463592920460} status=0 QTime=0 
+2016-05-18 17:35:20.498 INFO  (qtp428746855-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1463592920484} status=0 QTime=8 
+2016-05-18 17:35:20.527 INFO  (qtp428746855-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463592920521} status=0 QTime=0 
+2016-05-18 17:35:21.150 INFO  (qtp428746855-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1463592921146} status=0 QTime=0 
+2016-05-18 17:35:21.189 INFO  (qtp428746855-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1463592921165} status=0 QTime=20 
+2016-05-18 17:35:21.207 INFO  (qtp428746855-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463592921203} status=0 QTime=0 
+2016-05-18 17:35:21.745 INFO  (qtp428746855-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1463592921742} status=0 QTime=0 
+2016-05-18 17:35:21.779 INFO  (qtp428746855-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1463592921772} status=0 QTime=4 
+2016-05-18 17:35:21.804 INFO  (qtp428746855-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463592921790} status=0 QTime=0 
+2016-05-18 17:35:22.317 INFO  (qtp428746855-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1463592922312} status=0 QTime=0 
+2016-05-18 17:35:22.334 INFO  (qtp428746855-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1463592922325} status=0 QTime=4 
+2016-05-18 17:35:22.383 INFO  (qtp428746855-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463592922359} status=0 QTime=0 
+2016-05-18 17:35:22.844 INFO  (qtp428746855-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1463592922835} status=0 QTime=0 
+2016-05-18 17:35:22.909 INFO  (qtp428746855-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1463592922862} status=0 QTime=43 
+2016-05-18 17:35:22.940 INFO  (qtp428746855-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463592922937} status=0 QTime=0 
+2016-05-18 17:35:23.447 INFO  (qtp428746855-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1463592923444} status=0 QTime=0 
+2016-05-18 17:35:23.476 INFO  (qtp428746855-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1463592923458} status=0 QTime=11 
+2016-05-18 17:35:23.490 INFO  (qtp428746855-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463592923487} status=0 QTime=0 
+2016-05-19 01:53:19.530 INFO  (Thread-0) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@33065d67{HTTP/1.1}{0.0.0.0:8988}
+2016-05-19 01:53:24.513 INFO  (Thread-0) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1276261147
+2016-05-19 01:53:33.386 INFO  (Thread-0) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@271053e1{/solr,file:/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp/,UNAVAILABLE}{/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp}

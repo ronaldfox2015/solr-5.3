@@ -1,0 +1,463 @@
+WARNING: System properties and/or JVM args set.  Consider using --dry-run or --exec
+0    INFO  (main) [   ] o.e.j.u.log Logging initialized @1790ms
+528  INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+543  WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+544  INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/home/ronald/Sistemas/solr-trabajobusco/server/contexts/] at interval 0
+1524 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+1564 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@271053e1{/solr,file:/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp/,STARTING}{/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp} has uncovered http methods for path: /
+1605 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1164371389@4566e5bd
+1732 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+1732 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/ronald/Sistemas/solr-trabajobusco/server/solr
+1740 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/ronald/Sistemas/solr-trabajobusco/server/solr/'
+2102 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/ronald/Sistemas/solr-trabajobusco/server/solr/solr.xml
+2478 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: /home/ronald/Sistemas/solr-trabajobusco/server/solr
+2623 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1276261147
+2623 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/]
+2623 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: /home/ronald/Sistemas/solr-trabajobusco/server/solr/lib
+2623 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: /home/ronald/Sistemas/solr-trabajobusco/server/solr/lib).
+2685 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+3553 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+3555 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+3556 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+3572 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+3572 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+3751 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath /home/ronald/Sistemas/solr-trabajobusco/server/solr
+3791 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=token, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/token, absoluteInstDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/token/, dataDir=data/}
+3792 INFO  (main) [   ] o.a.s.c.CoresLocator Found core token in /home/ronald/Sistemas/solr-trabajobusco/server/solr/token/
+3893 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=avisos, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos, absoluteInstDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/, dataDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/data/}
+3893 INFO  (main) [   ] o.a.s.c.CoresLocator Found core avisos in /home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/
+3894 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=aviso, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso, absoluteInstDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/, dataDir=data/}
+3894 INFO  (main) [   ] o.a.s.c.CoresLocator Found core aviso in /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/
+3926 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=avisos, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/postulacion, absoluteInstDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/postulacion/, dataDir=/home/ronald/Sistemas/solr-5.3/server/solr/avisos/data/}
+3926 INFO  (main) [   ] o.a.s.c.CoresLocator Found core avisos in /home/ronald/Sistemas/solr-trabajobusco/server/solr/postulacion/
+3927 INFO  (main) [   ] o.a.s.c.CoresLocator Found 4 core definitions
+3929 ERROR (main) [   ] o.a.s.s.SolrDispatchFilter Could not start Solr. Check solr/home property and the logs
+4049 ERROR (main) [   ] o.a.s.c.SolrCore null:org.apache.solr.common.SolrException: Found multiple cores with the name [avisos], with instancedirs [/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/] and [/home/ronald/Sistemas/solr-trabajobusco/server/solr/postulacion/]
+	at org.apache.solr.core.CoreContainer.checkForDuplicateCoreNames(CoreContainer.java:507)
+	at org.apache.solr.core.CoreContainer.load(CoreContainer.java:424)
+	at org.apache.solr.servlet.SolrDispatchFilter.createCoreContainer(SolrDispatchFilter.java:132)
+	at org.apache.solr.servlet.SolrDispatchFilter.init(SolrDispatchFilter.java:109)
+	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:138)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:298)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:41)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:186)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:498)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:146)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:180)
+	at org.eclipse.jetty.deploy.providers.WebAppProvider.fileAdded(WebAppProvider.java:461)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:64)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:609)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:528)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:391)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:313)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:150)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:560)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:235)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1255)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:321)
+	at org.eclipse.jetty.start.Main.start(Main.java:817)
+	at org.eclipse.jetty.start.Main.main(Main.java:112)
+
+4049 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+4156 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@271053e1{/solr,file:/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp/,AVAILABLE}{/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp}
+4311 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@33065d67{HTTP/1.1}{0.0.0.0:8892}
+4313 INFO  (main) [   ] o.e.j.s.Server Started @6104ms
+11196 INFO  (qtp428746855-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1463594310275} status=0 QTime=78 
+11468 INFO  (qtp428746855-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1463594310592} status=0 QTime=61 
+11483 INFO  (qtp428746855-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463594310735} status=0 QTime=0 
+11492 INFO  (qtp428746855-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463594310744} status=0 QTime=0 
+13943 INFO  (qtp428746855-12) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1463594313193} status=0 QTime=0 
+13991 INFO  (qtp428746855-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1463594313220} status=0 QTime=22 
+14013 INFO  (qtp428746855-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463594313256} status=0 QTime=0 
+14845 INFO  (qtp428746855-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1463594314095} status=0 QTime=0 
+14864 INFO  (qtp428746855-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1463594314110} status=0 QTime=4 
+14889 INFO  (qtp428746855-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463594314138} status=0 QTime=0 
+89508 INFO  (qtp428746855-19) [   ] o.a.s.h.a.CoreAdminHandler core create command schema=schema.xml&dataDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data&name=aviso&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos&config=solrconfig.xml&_=1463594388758
+89509 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=aviso, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos, absoluteInstDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/, dataDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data}
+89510 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/'
+89903 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+89905 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+89963 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+89963 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+89963 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+89964 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/jdom-1.0.jar' to classloader
+89965 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+89965 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+89965 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+89965 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+89965 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/poi-3.11.jar' to classloader
+89965 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+89979 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+89979 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+89979 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/xz-1.5.jar' to classloader
+89979 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+89979 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+89979 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/rome-1.0.jar' to classloader
+89980 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-cell-5.3.1.jar' to classloader
+90013 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+90013 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+90013 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+90013 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+90013 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+90013 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+90013 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+90013 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+90014 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-clustering-5.3.1.jar' to classloader
+90027 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+90027 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+90027 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-langid-5.3.1.jar' to classloader
+90045 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/velocity/lib/velocity-1.7.jar' to classloader
+90045 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+90045 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+90046 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+90046 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-velocity-5.3.1.jar' to classloader
+90057 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/dataimporthandler/lib/mysql-connector-java-5.0.8-bin.jar' to classloader
+90058 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-dataimporthandler-5.3.1.jar' to classloader
+90058 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-dataimporthandler-extras-5.3.1.jar' to classloader
+90711 INFO  (qtp428746855-19) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+90795 INFO  (qtp428746855-19) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+90814 INFO  (qtp428746855-19) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/conf/managed-schema
+90845 INFO  (qtp428746855-19) [   ] o.a.s.s.IndexSchema [aviso] Schema name=example-data-driven-schema
+91439 INFO  (qtp428746855-19) [   ] o.a.s.s.IndexSchema query parser default operator is OR
+91441 INFO  (qtp428746855-19) [   ] o.a.s.s.IndexSchema unique key field: id
+91748 INFO  (qtp428746855-19) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+91751 INFO  (qtp428746855-19) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+91763 INFO  (qtp428746855-19) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/conf'
+91764 INFO  (qtp428746855-19) [   ] o.a.s.c.CoreContainer Creating SolrCore 'aviso' using configuration from instancedir /home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/
+91764 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+91774 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.SolrCore [[aviso] ] Opening new SolrCore at [/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/], dataDir=[null]
+91797 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+91824 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.SolrCore [[aviso] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+91824 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.SolrCore [[aviso] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+91942 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.CachingDirectoryFactory return new directory for /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data
+91943 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.SolrCore New index directory detected: old=null new=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index/
+91943 WARN  (qtp428746855-19) [   x:aviso] o.a.s.c.SolrCore [aviso] Solr index directory '/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index' doesn't exist. Creating new index...
+91952 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.CachingDirectoryFactory return new directory for /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index
+92242 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@75173b4f; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+92242 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.SolrCore newest commit generation = 1
+92243 INFO  (OldIndexDirectoryCleanupThreadForCore-aviso) [   x:aviso] o.a.s.c.SolrCore Looking for old index directories to cleanup for core aviso in /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/
+92245 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+92246 INFO  (qtp428746855-19) [   x:aviso] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+92723 INFO  (qtp428746855-19) [   x:aviso] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+92950 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+93136 INFO  (qtp428746855-19) [   x:aviso] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+93137 INFO  (qtp428746855-19) [   x:aviso] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+93138 INFO  (qtp428746855-19) [   x:aviso] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+93138 INFO  (qtp428746855-19) [   x:aviso] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+93210 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+93213 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+93213 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+93214 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+93214 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+93214 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+93214 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+93214 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/dataimport,/update/extract
+93215 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+93256 INFO  (qtp428746855-19) [   x:aviso] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+93256 INFO  (qtp428746855-19) [   x:aviso] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+93262 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+93262 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.SolrCore Soft AutoCommit: disabled
+93266 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@75173b4f; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+93266 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.SolrCore newest commit generation = 1
+93275 INFO  (qtp428746855-19) [   x:aviso] o.a.s.s.SolrIndexSearcher Opening Searcher@6de8647d[aviso] main
+93295 INFO  (qtp428746855-19) [   x:aviso] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/conf
+93295 INFO  (qtp428746855-19) [   x:aviso] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/conf}
+93311 INFO  (qtp428746855-19) [   x:aviso] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/conf
+93311 INFO  (qtp428746855-19) [   x:aviso] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+93345 INFO  (qtp428746855-19) [   x:aviso] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+93371 INFO  (qtp428746855-19) [   x:aviso] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+93375 INFO  (qtp428746855-19) [   x:aviso] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+93377 INFO  (qtp428746855-19) [   x:aviso] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/conf/elevate.xml
+93440 INFO  (qtp428746855-19) [   x:aviso] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+93445 INFO  (searcherExecutor-7-thread-1-processing-x:aviso) [   x:aviso] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@6de8647d[aviso] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+93445 INFO  (qtp428746855-19) [   x:aviso] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+93445 INFO  (searcherExecutor-7-thread-1-processing-x:aviso) [   x:aviso] o.a.s.c.SolrCore QuerySenderListener done.
+93445 INFO  (searcherExecutor-7-thread-1-processing-x:aviso) [   x:aviso] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+93446 INFO  (searcherExecutor-7-thread-1-processing-x:aviso) [   x:aviso] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+93446 INFO  (searcherExecutor-7-thread-1-processing-x:aviso) [   x:aviso] o.a.s.c.SolrCore [aviso] Registered new searcher Searcher@6de8647d[aviso] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+93446 INFO  (qtp428746855-19) [   x:aviso] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+93446 INFO  (qtp428746855-19) [   x:aviso] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+93446 INFO  (qtp428746855-19) [   x:aviso] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1534689953920843776
+93450 INFO  (qtp428746855-19) [   x:aviso] o.a.s.u.UpdateLog Took 5 ms to seed version buckets with highest version 1534689953920843776
+93451 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.CoreContainer registering core: aviso
+93452 ERROR (qtp428746855-19) [   x:aviso] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Error CREATEing SolrCore 'aviso': Could not create a new core in /home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/as another core is already defined there
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:662)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Could not create a new core in /home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/as another core is already defined there
+	at org.apache.solr.core.CorePropertiesLocator.create(CorePropertiesLocator.java:59)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:632)
+	... 27 more
+
+93452 INFO  (qtp428746855-19) [   x:aviso] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data&name=aviso&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos&config=solrconfig.xml&_=1463594388758} status=400 QTime=3944 
+17450333 INFO  (qtp428746855-20) [   ] o.a.s.h.a.CoreAdminHandler core create command schema=schema.xml&dataDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data&name=aviso&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos&config=solrconfig.xml&_=1463611749585
+17450353 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=aviso, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos, absoluteInstDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/, dataDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data}
+17450353 WARN  (qtp428746855-20) [   ] o.a.s.h.a.CoreAdminHandler Creating a core with existing name is not allowed
+17450354 ERROR (qtp428746855-20) [   ] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Core with name 'aviso' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:609)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+17450355 INFO  (qtp428746855-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data&name=aviso&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos&config=solrconfig.xml&_=1463611749585} status=500 QTime=22 
+17450355 ERROR (qtp428746855-20) [   ] o.a.s.s.SolrDispatchFilter null:org.apache.solr.common.SolrException: Core with name 'aviso' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:609)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+17451960 INFO  (qtp428746855-20) [   ] o.a.s.h.a.CoreAdminHandler core create command schema=schema.xml&dataDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data&name=aviso&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos&config=solrconfig.xml&_=1463611751212
+17451961 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=aviso, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos, absoluteInstDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos/, dataDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data}
+17451961 WARN  (qtp428746855-20) [   ] o.a.s.h.a.CoreAdminHandler Creating a core with existing name is not allowed
+17451961 ERROR (qtp428746855-20) [   ] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Core with name 'aviso' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:609)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+17451961 INFO  (qtp428746855-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data&name=aviso&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/avisos&config=solrconfig.xml&_=1463611751212} status=500 QTime=1 
+17451962 ERROR (qtp428746855-20) [   ] o.a.s.s.SolrDispatchFilter null:org.apache.solr.common.SolrException: Core with name 'aviso' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:609)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:214)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:194)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:675)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:443)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+17454867 INFO  (qtp428746855-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1463611754117} status=0 QTime=0 
+17454891 INFO  (qtp428746855-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1463611754137} status=0 QTime=5 
+17454939 INFO  (qtp428746855-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463611754158} status=0 QTime=33 
+17454977 INFO  (qtp428746855-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463611754227} status=0 QTime=0 
+28470599 INFO  (Thread-0) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@33065d67{HTTP/1.1}{0.0.0.0:8892}
+28470651 INFO  (Thread-0) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1276261147
+28470651 INFO  (Thread-0) [   x:aviso] o.a.s.c.SolrCore [aviso]  CLOSING SolrCore org.apache.solr.core.SolrCore@46b09a9f
+28470745 INFO  (Thread-0) [   x:aviso] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+28470746 INFO  (Thread-0) [   x:aviso] o.a.s.u.SolrCoreState Closing SolrCoreState
+28470746 INFO  (Thread-0) [   x:aviso] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+28470746 INFO  (Thread-0) [   x:aviso] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+28480907 ERROR (Thread-0) [   x:aviso] o.a.s.u.SolrIndexWriter Error closing IndexWriter
+org.apache.lucene.store.AlreadyClosedException: Underlying file changed by an external force at 2016-05-18T17:59:51Z, (lock=NativeFSLock(path=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index/write.lock,impl=sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid],ctime=2016-05-18T17:59:51Z))
+	at org.apache.lucene.store.NativeFSLockFactory$NativeFSLock.ensureValid(NativeFSLockFactory.java:179)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.deleteFile(LockValidatingDirectoryWrapper.java:37)
+	at org.apache.lucene.index.IndexFileDeleter.deleteFile(IndexFileDeleter.java:746)
+	at org.apache.lucene.index.IndexFileDeleter.deletePendingFiles(IndexFileDeleter.java:517)
+	at org.apache.lucene.index.IndexFileDeleter.refresh(IndexFileDeleter.java:456)
+	at org.apache.lucene.index.IndexFileDeleter.refresh(IndexFileDeleter.java:462)
+	at org.apache.lucene.index.IndexWriter.rollbackInternal(IndexWriter.java:2093)
+	at org.apache.lucene.index.IndexWriter.shutdown(IndexWriter.java:1081)
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1123)
+	at org.apache.solr.update.SolrIndexWriter.close(SolrIndexWriter.java:130)
+	at org.apache.solr.update.DirectUpdateHandler2.closeWriter(DirectUpdateHandler2.java:798)
+	at org.apache.solr.update.DefaultSolrCoreState.closeIndexWriter(DefaultSolrCoreState.java:75)
+	at org.apache.solr.update.DefaultSolrCoreState.close(DefaultSolrCoreState.java:374)
+	at org.apache.solr.update.SolrCoreState.decrefSolrCoreState(SolrCoreState.java:73)
+	at org.apache.solr.core.SolrCore.close(SolrCore.java:1208)
+	at org.apache.solr.core.SolrCores.close(SolrCores.java:124)
+	at org.apache.solr.core.CoreContainer.shutdown(CoreContainer.java:558)
+	at org.apache.solr.servlet.SolrDispatchFilter.destroy(SolrDispatchFilter.java:172)
+	at org.eclipse.jetty.servlet.FilterHolder.destroyInstance(FilterHolder.java:173)
+	at org.eclipse.jetty.servlet.FilterHolder.doStop(FilterHolder.java:151)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:230)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.security.SecurityHandler.doStop(SecurityHandler.java:411)
+	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStop(ConstraintSecurityHandler.java:457)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:127)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:835)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:215)
+	at org.eclipse.jetty.webapp.WebAppContext.doStop(WebAppContext.java:529)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:456)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:138)
+28481673 INFO  (Thread-0) [   x:aviso] o.a.s.c.SolrCore [aviso] Closing main searcher on request.
+28481674 INFO  (Thread-0) [   x:aviso] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+28481675 INFO  (Thread-0) [   x:aviso] o.a.s.c.CachingDirectoryFactory looking to close /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index [CachedDir<<refCount=0;path=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index;done=false>>]
+28481675 INFO  (Thread-0) [   x:aviso] o.a.s.c.CachingDirectoryFactory Closing directory: /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index
+28481675 INFO  (Thread-0) [   x:aviso] o.a.s.c.CachingDirectoryFactory looking to close /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data [CachedDir<<refCount=0;path=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data;done=false>>]
+28481675 INFO  (Thread-0) [   x:aviso] o.a.s.c.CachingDirectoryFactory Closing directory: /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data
+28481679 INFO  (Thread-0) [   x:aviso] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@271053e1{/solr,file:/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp/,UNAVAILABLE}{/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp}

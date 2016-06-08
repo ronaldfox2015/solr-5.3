@@ -1,0 +1,865 @@
+2016-05-19 01:23:25.689 INFO  (main) [   ] o.e.j.u.log Logging initialized @462ms
+2016-05-19 01:23:26.007 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2016-05-19 01:23:26.018 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2016-05-19 01:23:26.020 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/home/ronald/Sistemas/solr-trabajobusco/server/contexts/] at interval 0
+2016-05-19 01:23:26.321 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-05-19 01:23:26.328 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@271053e1{/solr,file:/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp/,STARTING}{/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-05-19 01:23:26.333 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1164371389@4566e5bd
+2016-05-19 01:23:26.342 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-05-19 01:23:26.343 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/ronald/Sistemas/solr-trabajobusco/server/solr
+2016-05-19 01:23:26.344 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/ronald/Sistemas/solr-trabajobusco/server/solr/'
+2016-05-19 01:23:26.426 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/ronald/Sistemas/solr-trabajobusco/server/solr/solr.xml
+2016-05-19 01:23:26.467 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: /home/ronald/Sistemas/solr-trabajobusco/server/solr
+2016-05-19 01:23:26.482 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1276261147
+2016-05-19 01:23:26.482 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/]
+2016-05-19 01:23:26.482 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: /home/ronald/Sistemas/solr-trabajobusco/server/solr/lib
+2016-05-19 01:23:26.482 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: /home/ronald/Sistemas/solr-trabajobusco/server/solr/lib).
+2016-05-19 01:23:26.491 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2016-05-19 01:23:26.652 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-05-19 01:23:26.654 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-05-19 01:23:26.654 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-05-19 01:23:26.656 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-05-19 01:23:26.656 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-05-19 01:23:26.674 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath /home/ronald/Sistemas/solr-trabajobusco/server/solr
+2016-05-19 01:23:26.687 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=aviso, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso, absoluteInstDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/, dataDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data}
+2016-05-19 01:23:26.688 INFO  (main) [   ] o.a.s.c.CoresLocator Found core aviso in /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/
+2016-05-19 01:23:26.688 INFO  (main) [   ] o.a.s.c.CoresLocator Found 1 core definitions
+2016-05-19 01:23:26.690 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/'
+2016-05-19 01:23:26.690 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/home/ronald/Sistemas/solr-trabajobusco/server
+2016-05-19 01:23:26.690 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-05-19 01:23:26.698 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@271053e1{/solr,file:/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp/,AVAILABLE}{/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp}
+2016-05-19 01:23:26.705 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@7bba5817{HTTP/1.1}{0.0.0.0:8983}
+2016-05-19 01:23:26.705 INFO  (main) [   ] o.e.j.s.Server Started @1479ms
+2016-05-19 01:23:26.741 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2016-05-19 01:23:26.744 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2016-05-19 01:23:26.745 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2016-05-19 01:23:26.745 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2016-05-19 01:23:26.745 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2016-05-19 01:23:26.745 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2016-05-19 01:23:26.745 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2016-05-19 01:23:26.745 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2016-05-19 01:23:26.745 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2016-05-19 01:23:26.749 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2016-05-19 01:23:26.749 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2016-05-19 01:23:26.749 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2016-05-19 01:23:26.750 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2016-05-19 01:23:26.750 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2016-05-19 01:23:26.750 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2016-05-19 01:23:26.750 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2016-05-19 01:23:26.750 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2016-05-19 01:23:26.750 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2016-05-19 01:23:26.750 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2016-05-19 01:23:26.750 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2016-05-19 01:23:26.750 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2016-05-19 01:23:26.750 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2016-05-19 01:23:26.750 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2016-05-19 01:23:26.750 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2016-05-19 01:23:26.751 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2016-05-19 01:23:26.751 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2016-05-19 01:23:26.751 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2016-05-19 01:23:26.751 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/poi-3.11.jar' to classloader
+2016-05-19 01:23:26.751 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2016-05-19 01:23:26.751 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2016-05-19 01:23:26.751 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2016-05-19 01:23:26.751 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/xz-1.5.jar' to classloader
+2016-05-19 01:23:26.751 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2016-05-19 01:23:26.751 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2016-05-19 01:23:26.751 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/rome-1.0.jar' to classloader
+2016-05-19 01:23:26.752 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-cell-5.3.1.jar' to classloader
+2016-05-19 01:23:26.752 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2016-05-19 01:23:26.752 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2016-05-19 01:23:26.752 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2016-05-19 01:23:26.752 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2016-05-19 01:23:26.753 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2016-05-19 01:23:26.753 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2016-05-19 01:23:26.753 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2016-05-19 01:23:26.753 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2016-05-19 01:23:26.753 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-clustering-5.3.1.jar' to classloader
+2016-05-19 01:23:26.753 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2016-05-19 01:23:26.753 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2016-05-19 01:23:26.754 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-langid-5.3.1.jar' to classloader
+2016-05-19 01:23:26.754 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2016-05-19 01:23:26.754 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2016-05-19 01:23:26.754 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2016-05-19 01:23:26.754 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2016-05-19 01:23:26.754 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-velocity-5.3.1.jar' to classloader
+2016-05-19 01:23:26.754 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/dataimporthandler/lib/mysql-connector-java-5.0.8-bin.jar' to classloader
+2016-05-19 01:23:26.755 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-dataimporthandler-5.3.1.jar' to classloader
+2016-05-19 01:23:26.755 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-dataimporthandler-extras-5.3.1.jar' to classloader
+2016-05-19 01:23:26.816 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2016-05-19 01:23:26.900 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2016-05-19 01:23:26.908 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/conf/managed-schema
+2016-05-19 01:23:26.938 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [aviso] Schema name=example-data-driven-schema
+2016-05-19 01:23:27.229 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema query parser default operator is OR
+2016-05-19 01:23:27.230 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id_anuncio_web
+2016-05-19 01:23:27.344 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2016-05-19 01:23:27.346 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2016-05-19 01:23:27.360 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/conf'
+2016-05-19 01:23:27.360 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'aviso' using configuration from instancedir /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/
+2016-05-19 01:23:27.361 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2016-05-19 01:23:27.368 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.SolrCore [[aviso] ] Opening new SolrCore at [/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/], dataDir=[null]
+2016-05-19 01:23:27.369 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2016-05-19 01:23:27.372 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.SolrCore [[aviso] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2016-05-19 01:23:27.372 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.SolrCore [[aviso] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2016-05-19 01:23:27.379 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.CachingDirectoryFactory return new directory for /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data
+2016-05-19 01:23:27.380 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.SolrCore New index directory detected: old=null new=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index/
+2016-05-19 01:23:27.380 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.CachingDirectoryFactory return new directory for /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index
+2016-05-19 01:23:27.390 INFO  (OldIndexDirectoryCleanupThreadForCore-aviso) [   x:aviso] o.a.s.c.SolrCore Looking for old index directories to cleanup for core aviso in /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/
+2016-05-19 01:23:27.391 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2016-05-19 01:23:27.393 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2016-05-19 01:23:27.448 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2016-05-19 01:23:27.484 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2016-05-19 01:23:27.502 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-05-19 01:23:27.503 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-05-19 01:23:27.504 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-05-19 01:23:27.504 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-05-19 01:23:27.515 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2016-05-19 01:23:27.517 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2016-05-19 01:23:27.517 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2016-05-19 01:23:27.518 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2016-05-19 01:23:27.518 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2016-05-19 01:23:27.518 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2016-05-19 01:23:27.518 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2016-05-19 01:23:27.518 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/dataimport,/update/extract
+2016-05-19 01:23:27.519 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2016-05-19 01:23:27.525 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2016-05-19 01:23:27.526 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2016-05-19 01:23:27.566 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2016-05-19 01:23:27.566 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2016-05-19 01:23:27.605 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@77219e50; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+2016-05-19 01:23:27.606 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.SolrCore newest commit generation = 6
+2016-05-19 01:23:27.629 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.s.SolrIndexSearcher Opening Searcher@4624bf1a[aviso] main
+2016-05-19 01:23:27.632 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/conf
+2016-05-19 01:23:27.633 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/conf}
+2016-05-19 01:23:27.638 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/conf
+2016-05-19 01:23:27.638 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2016-05-19 01:23:27.642 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2016-05-19 01:23:27.645 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2016-05-19 01:23:27.649 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2016-05-19 01:23:27.650 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/conf/elevate.xml
+2016-05-19 01:23:27.660 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2016-05-19 01:23:27.665 INFO  (searcherExecutor-7-thread-1-processing-x:aviso) [   x:aviso] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@4624bf1a[aviso] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_4(5.3.1):C17340)))}
+2016-05-19 01:23:27.665 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2016-05-19 01:23:27.666 INFO  (searcherExecutor-7-thread-1-processing-x:aviso) [   x:aviso] o.a.s.c.SolrCore QuerySenderListener done.
+2016-05-19 01:23:27.666 INFO  (searcherExecutor-7-thread-1-processing-x:aviso) [   x:aviso] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2016-05-19 01:23:27.666 INFO  (searcherExecutor-7-thread-1-processing-x:aviso) [   x:aviso] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2016-05-19 01:23:27.666 INFO  (searcherExecutor-7-thread-1-processing-x:aviso) [   x:aviso] o.a.s.c.SolrCore [aviso] Registered new searcher Searcher@4624bf1a[aviso] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_4(5.3.1):C17340)))}
+2016-05-19 01:23:27.666 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2016-05-19 01:23:27.673 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.u.VersionInfo Found MAX value 1534717272629706752 from Terms for _version_ in index
+2016-05-19 01:23:27.676 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.u.UpdateLog Took 10 ms to seed version buckets with highest version 1534717272629706752
+2016-05-19 01:23:27.677 INFO  (coreLoadExecutor-6-thread-1) [   x:aviso] o.a.s.c.CoreContainer registering core: aviso
+2016-05-19 01:23:33.856 INFO  (qtp428746855-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1463621013845} status=0 QTime=6 
+2016-05-19 01:23:33.931 INFO  (qtp428746855-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1463621013878} status=0 QTime=40 
+2016-05-19 01:23:34.785 INFO  (qtp428746855-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1463621014781} status=0 QTime=0 
+2016-05-19 01:23:34.815 INFO  (qtp428746855-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1463621014808} status=0 QTime=4 
+2016-05-19 01:23:36.004 INFO  (qtp428746855-13) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1463621015999} status=0 QTime=2 
+2016-05-19 01:23:36.050 INFO  (qtp428746855-18) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1463621016020} status=0 QTime=0 
+2016-05-19 01:23:36.051 INFO  (qtp428746855-21) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1463621016023} status=0 QTime=1 
+2016-05-19 01:23:36.052 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={indent=true&command=show-config&_=1463621016021} status=0 QTime=2 
+2016-05-19 01:23:37.659 INFO  (qtp428746855-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463621017656} status=0 QTime=1 
+2016-05-19 01:23:37.684 INFO  (qtp428746855-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463621017668} status=0 QTime=0 
+2016-05-19 01:23:39.487 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/'
+2016-05-19 01:23:39.502 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2016-05-19 01:23:39.503 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2016-05-19 01:23:39.503 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2016-05-19 01:23:39.503 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2016-05-19 01:23:39.503 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2016-05-19 01:23:39.503 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2016-05-19 01:23:39.503 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2016-05-19 01:23:39.503 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2016-05-19 01:23:39.503 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2016-05-19 01:23:39.503 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2016-05-19 01:23:39.503 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/poi-3.11.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/xz-1.5.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2016-05-19 01:23:39.504 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/extraction/lib/rome-1.0.jar' to classloader
+2016-05-19 01:23:39.505 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-cell-5.3.1.jar' to classloader
+2016-05-19 01:23:39.505 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2016-05-19 01:23:39.505 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2016-05-19 01:23:39.505 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2016-05-19 01:23:39.505 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2016-05-19 01:23:39.505 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2016-05-19 01:23:39.505 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2016-05-19 01:23:39.505 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2016-05-19 01:23:39.505 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2016-05-19 01:23:39.505 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-clustering-5.3.1.jar' to classloader
+2016-05-19 01:23:39.506 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2016-05-19 01:23:39.506 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2016-05-19 01:23:39.506 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-langid-5.3.1.jar' to classloader
+2016-05-19 01:23:39.506 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2016-05-19 01:23:39.506 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2016-05-19 01:23:39.506 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2016-05-19 01:23:39.506 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2016-05-19 01:23:39.506 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-velocity-5.3.1.jar' to classloader
+2016-05-19 01:23:39.507 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/contrib/dataimporthandler/lib/mysql-connector-java-5.0.8-bin.jar' to classloader
+2016-05-19 01:23:39.507 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-dataimporthandler-5.3.1.jar' to classloader
+2016-05-19 01:23:39.507 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/ronald/Sistemas/solr-trabajobusco/dist/solr-dataimporthandler-extras-5.3.1.jar' to classloader
+2016-05-19 01:23:39.523 INFO  (qtp428746855-20) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2016-05-19 01:23:39.541 INFO  (qtp428746855-20) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2016-05-19 01:23:39.541 INFO  (qtp428746855-20) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/conf/managed-schema
+2016-05-19 01:23:39.551 INFO  (qtp428746855-20) [   ] o.a.s.s.IndexSchema [aviso] Schema name=example-data-driven-schema
+2016-05-19 01:23:39.686 INFO  (qtp428746855-20) [   ] o.a.s.s.IndexSchema query parser default operator is OR
+2016-05-19 01:23:39.686 INFO  (qtp428746855-20) [   ] o.a.s.s.IndexSchema unique key field: id_anuncio_web
+2016-05-19 01:23:39.710 INFO  (qtp428746855-20) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2016-05-19 01:23:39.712 INFO  (qtp428746855-20) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2016-05-19 01:23:39.722 INFO  (qtp428746855-20) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/conf'
+2016-05-19 01:23:39.722 INFO  (qtp428746855-20) [   ] o.a.s.c.CoreContainer Reloading SolrCore 'aviso' using configuration from instancedir /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/
+2016-05-19 01:23:39.722 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.SolrCore [[aviso] ] Opening new SolrCore at [/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/], dataDir=[/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/]
+2016-05-19 01:23:39.722 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2016-05-19 01:23:39.723 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.SolrCore [[aviso] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2016-05-19 01:23:39.723 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.SolrCore [[aviso] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2016-05-19 01:23:39.723 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.SolrCore New index directory detected: old=null new=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index/
+2016-05-19 01:23:39.723 INFO  (OldIndexDirectoryCleanupThreadForCore-aviso) [   x:aviso] o.a.s.c.SolrCore Looking for old index directories to cleanup for core aviso in /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/
+2016-05-19 01:23:39.723 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2016-05-19 01:23:39.723 INFO  (qtp428746855-20) [   x:aviso] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2016-05-19 01:23:39.724 INFO  (qtp428746855-20) [   x:aviso] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2016-05-19 01:23:39.725 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2016-05-19 01:23:39.726 INFO  (qtp428746855-20) [   x:aviso] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-05-19 01:23:39.727 INFO  (qtp428746855-20) [   x:aviso] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-05-19 01:23:39.727 INFO  (qtp428746855-20) [   x:aviso] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-05-19 01:23:39.727 INFO  (qtp428746855-20) [   x:aviso] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-05-19 01:23:39.731 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2016-05-19 01:23:39.731 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2016-05-19 01:23:39.731 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2016-05-19 01:23:39.731 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2016-05-19 01:23:39.731 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2016-05-19 01:23:39.731 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2016-05-19 01:23:39.731 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2016-05-19 01:23:39.731 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/dataimport,/update/extract
+2016-05-19 01:23:39.732 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2016-05-19 01:23:39.733 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2016-05-19 01:23:39.734 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2016-05-19 01:23:39.735 INFO  (qtp428746855-20) [   x:aviso] o.a.s.s.SolrIndexSearcher Opening Searcher@650cc0bf[aviso] main
+2016-05-19 01:23:39.735 INFO  (qtp428746855-20) [   x:aviso] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/conf
+2016-05-19 01:23:39.735 INFO  (qtp428746855-20) [   x:aviso] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/conf}
+2016-05-19 01:23:39.735 INFO  (qtp428746855-20) [   x:aviso] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/conf
+2016-05-19 01:23:39.735 INFO  (qtp428746855-20) [   x:aviso] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2016-05-19 01:23:39.736 INFO  (qtp428746855-20) [   x:aviso] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2016-05-19 01:23:39.736 INFO  (qtp428746855-20) [   x:aviso] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2016-05-19 01:23:39.736 INFO  (qtp428746855-20) [   x:aviso] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2016-05-19 01:23:39.736 INFO  (qtp428746855-20) [   x:aviso] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/conf/elevate.xml
+2016-05-19 01:23:39.739 INFO  (qtp428746855-20) [   x:aviso] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2016-05-19 01:23:39.743 INFO  (qtp428746855-20) [   x:aviso] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2016-05-19 01:23:39.743 INFO  (searcherExecutor-12-thread-1-processing-x:aviso) [   x:aviso] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@650cc0bf[aviso] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_4(5.3.1):C17340)))}
+2016-05-19 01:23:39.743 INFO  (qtp428746855-20) [   x:aviso] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2016-05-19 01:23:39.744 INFO  (searcherExecutor-12-thread-1-processing-x:aviso) [   x:aviso] o.a.s.c.SolrCore QuerySenderListener done.
+2016-05-19 01:23:39.745 INFO  (searcherExecutor-12-thread-1-processing-x:aviso) [   x:aviso] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2016-05-19 01:23:39.745 INFO  (searcherExecutor-12-thread-1-processing-x:aviso) [   x:aviso] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2016-05-19 01:23:39.745 INFO  (searcherExecutor-12-thread-1-processing-x:aviso) [   x:aviso] o.a.s.c.SolrCore [aviso] Registered new searcher Searcher@650cc0bf[aviso] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_4(5.3.1):C17340)))}
+2016-05-19 01:23:39.746 INFO  (qtp428746855-20) [   x:aviso] o.a.s.u.VersionInfo Found MAX value 1534717272629706752 from Terms for _version_ in index
+2016-05-19 01:23:39.747 INFO  (qtp428746855-20) [   x:aviso] o.a.s.u.UpdateLog Took 4 ms to seed version buckets with highest version 1534717272629706752
+2016-05-19 01:23:39.748 INFO  (qtp428746855-20) [   x:aviso] o.a.s.u.DefaultSolrCoreState Creating new IndexWriter...
+2016-05-19 01:23:39.748 INFO  (qtp428746855-20) [   x:aviso] o.a.s.u.DefaultSolrCoreState Waiting until IndexWriter is unused... core=aviso
+2016-05-19 01:23:39.748 INFO  (qtp428746855-20) [   x:aviso] o.a.s.u.DefaultSolrCoreState Closing old IndexWriter... core=aviso
+2016-05-19 01:23:39.753 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@77219e50; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+2016-05-19 01:23:39.753 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.SolrCore newest commit generation = 6
+2016-05-19 01:23:39.753 INFO  (qtp428746855-20) [   x:aviso] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2016-05-19 01:23:39.757 INFO  (qtp428746855-20) [   x:aviso] o.a.s.s.SolrIndexSearcher Opening Searcher@72cd59[aviso] main
+2016-05-19 01:23:39.757 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.CoreContainer replacing core: aviso
+2016-05-19 01:23:39.758 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.SolrCore [aviso]  CLOSING SolrCore org.apache.solr.core.SolrCore@4142612c
+2016-05-19 01:23:39.758 INFO  (qtp428746855-20) [   x:aviso] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=7215151,transaction_logs_total_number=1}
+2016-05-19 01:23:39.758 INFO  (searcherExecutor-12-thread-1-processing-x:aviso) [   x:aviso] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@72cd59[aviso] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_4(5.3.1):C17340)))}
+2016-05-19 01:23:39.758 INFO  (searcherExecutor-12-thread-1-processing-x:aviso) [   x:aviso] o.a.s.c.SolrCore QuerySenderListener done.
+2016-05-19 01:23:39.758 INFO  (searcherExecutor-12-thread-1-processing-x:aviso) [   x:aviso] o.a.s.c.SolrCore [aviso] Registered new searcher Searcher@72cd59[aviso] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_4(5.3.1):C17340)))}
+2016-05-19 01:23:39.758 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.SolrCore [aviso] Closing main searcher on request.
+2016-05-19 01:23:39.759 INFO  (qtp428746855-20) [   x:aviso] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={core=aviso&action=RELOAD&wt=json&_=1463621019484} status=0 QTime=271 
+2016-05-19 01:23:39.774 INFO  (qtp428746855-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1463621019763} status=0 QTime=4 
+2016-05-19 01:23:41.267 ERROR (qtp428746855-16) [   x:aviso] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/conf/admin-extra.menu-top.html]
+2016-05-19 01:23:41.268 INFO  (qtp428746855-16) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1463621021264} status=404 QTime=1 
+2016-05-19 01:23:41.270 ERROR (qtp428746855-14) [   x:aviso] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/conf/admin-extra.menu-bottom.html]
+2016-05-19 01:23:41.270 INFO  (qtp428746855-14) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1463621021265} status=404 QTime=0 
+2016-05-19 01:23:41.288 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1463621021280} status=0 QTime=0 
+2016-05-19 01:23:41.289 INFO  (qtp428746855-18) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/replication params={wt=json&command=details&_=1463621021282} status=0 QTime=1 
+2016-05-19 01:23:41.309 ERROR (qtp428746855-19) [   x:aviso] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/conf/admin-extra.html]
+2016-05-19 01:23:41.310 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1463621021283} status=404 QTime=0 
+2016-05-19 01:23:41.311 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1463621021284} status=503 QTime=0 
+2016-05-19 01:23:41.312 INFO  (qtp428746855-21) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/system params={wt=json&_=1463621021283} status=0 QTime=2 
+2016-05-19 01:23:42.533 INFO  (qtp428746855-16) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1463621022530} status=0 QTime=0 
+2016-05-19 01:23:42.555 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1463621022550} status=0 QTime=0 
+2016-05-19 01:23:42.563 INFO  (qtp428746855-18) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={indent=true&command=show-config&_=1463621022551} status=0 QTime=5 
+2016-05-19 01:23:42.564 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1463621022552} status=0 QTime=0 
+2016-05-19 01:23:44.574 INFO  (qtp428746855-13) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1463621024572} status=0 QTime=0 
+2016-05-19 01:23:45.187 INFO  (qtp428746855-21) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1463621025184} status=0 QTime=0 
+2016-05-19 01:23:45.566 INFO  (qtp428746855-16) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1463621025563} status=0 QTime=0 
+2016-05-19 01:23:46.228 INFO  (qtp428746855-14) [   x:aviso] o.a.s.h.d.DataImporter Loading DIH Configuration: data-config.xml
+2016-05-19 01:23:46.240 INFO  (qtp428746855-14) [   x:aviso] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-05-19 01:23:46.245 INFO  (Thread-18) [   x:aviso] o.a.s.h.d.DataImporter Starting Full Import
+2016-05-19 01:23:46.245 INFO  (qtp428746855-14) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={debug=false&optimize=false&indent=true&commit=true&clean=true&wt=json&command=full-import&entity=aviso&verbose=false} status=0 QTime=18 
+2016-05-19 01:23:46.250 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1463621026248} status=0 QTime=0 
+2016-05-19 01:23:46.258 INFO  (Thread-18) [   x:aviso] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-05-19 01:23:46.359 INFO  (Thread-18) [   x:aviso] o.a.s.s.SolrIndexSearcher Opening Searcher@f29959[aviso] realtime
+2016-05-19 01:23:46.371 INFO  (Thread-18) [   x:aviso] o.a.s.h.d.JdbcDataSource Creating a connection for entity aviso with URL: jdbc:mysql://104.196.45.76:3306/db_empleos?zeroDateTimeBehavior=convertToNull
+2016-05-19 01:23:46.582 INFO  (qtp428746855-18) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1463621026579} status=0 QTime=0 
+2016-05-19 01:23:47.365 INFO  (Thread-18) [   x:aviso] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 994
+2016-05-19 01:23:48.593 INFO  (qtp428746855-13) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1463621028589} status=0 QTime=0 
+2016-05-19 01:23:50.621 INFO  (qtp428746855-14) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1463621030618} status=0 QTime=0 
+2016-05-19 01:23:52.632 INFO  (qtp428746855-13) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1463621032629} status=0 QTime=0 
+2016-05-19 01:23:54.649 INFO  (qtp428746855-21) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1463621034638} status=0 QTime=0 
+2016-05-19 01:23:56.662 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1463621036659} status=0 QTime=0 
+2016-05-19 01:23:56.746 INFO  (Thread-18) [   x:aviso] o.a.s.h.d.DocBuilder Import completed successfully
+2016-05-19 01:23:56.746 INFO  (Thread-18) [   x:aviso] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-05-19 01:23:58.597 INFO  (Thread-18) [   x:aviso] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@77219e50; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@77219e50; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_7,generation=7}
+2016-05-19 01:23:58.597 INFO  (Thread-18) [   x:aviso] o.a.s.c.SolrCore newest commit generation = 7
+2016-05-19 01:23:58.601 INFO  (Thread-18) [   x:aviso] o.a.s.s.SolrIndexSearcher Opening Searcher@6f3d247d[aviso] main
+2016-05-19 01:23:58.601 INFO  (searcherExecutor-12-thread-1-processing-x:aviso) [   x:aviso] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@6f3d247d[aviso] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_5(5.3.1):C17340)))}
+2016-05-19 01:23:58.601 INFO  (searcherExecutor-12-thread-1-processing-x:aviso) [   x:aviso] o.a.s.c.SolrCore QuerySenderListener done.
+2016-05-19 01:23:58.601 INFO  (searcherExecutor-12-thread-1-processing-x:aviso) [   x:aviso] o.a.s.c.SolrCore [aviso] Registered new searcher Searcher@6f3d247d[aviso] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_5(5.3.1):C17340)))}
+2016-05-19 01:23:58.601 INFO  (Thread-18) [   x:aviso] o.a.s.u.UpdateHandler end_commit_flush
+2016-05-19 01:23:58.603 INFO  (Thread-18) [   x:aviso] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-05-19 01:23:58.603 INFO  (Thread-18) [   x:aviso] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2016-05-19 01:23:58.604 INFO  (Thread-18) [   x:aviso] o.a.s.h.d.DocBuilder Time taken = 0:0:12.345
+2016-05-19 01:23:58.604 INFO  (Thread-18) [   x:aviso] o.a.s.u.p.LogUpdateProcessor [aviso] webapp=/solr path=/dataimport params={debug=false&optimize=false&indent=true&commit=true&clean=true&wt=json&command=full-import&entity=aviso&verbose=false} status=0 QTime=18 {deleteByQuery=*:* (-1534717881248382976),add=[1226161 (1534717889373798400), 1226166 (1534717889407352832), 1226175 (1534717889410498560), 1234280 (1534717889412595712), 1234283 (1534717889414692864), 1234296 (1534717889416790016), 1243006 (1534717889417838592), 1243011 (1534717889419935744), 1243013 (1534717889422032896), 1251163 (1534717889424130048), ... (17340 adds)],commit=} 0 12376
+2016-05-19 01:23:58.683 INFO  (qtp428746855-21) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1463621038667} status=0 QTime=0 
+2016-05-19 01:24:00.690 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1463621040688} status=0 QTime=0 
+2016-05-19 01:24:02.927 INFO  (qtp428746855-21) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1463621042916} hits=17340 status=0 QTime=8 
+2016-05-19 01:24:05.945 INFO  (qtp428746855-18) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/select params={q=*:*&indent=true&wt=json} hits=17340 status=0 QTime=0 
+2016-05-19 01:24:14.071 INFO  (qtp428746855-16) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} hits=17340 status=0 QTime=1 
+2016-05-19 01:24:14.072 INFO  (qtp428746855-16) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} status=0 QTime=1 
+2016-05-19 01:24:14.110 ERROR (qtp428746855-20) [   x:aviso] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field price
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:762)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:546)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCount(SimpleFacets.java:333)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCounts(SimpleFacets.java:323)
+	at org.apache.solr.handler.component.FacetComponent.getFacetCounts(FacetComponent.java:293)
+	at org.apache.solr.handler.component.FacetComponent.process(FacetComponent.java:256)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:277)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-19 01:24:14.111 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/select params={facet.field={!key%3Darea}area&facet.field={!key%3Dnivel}nivel&facet.field={!key%3Dubicacion}ubicacion&facet.field={!key%3Ddiscapacidad}discapacidad&facet.field={!key%3Ddataempresa}dataempresa&json.nl=flat&fl=*,score&start=0&sort=destacado+desc,fecha_publicacion+desc&rows=20&facet.query={!key%3Dfecha|hoy}fecha_publicacion:[NOW-5HOURS/DAY+TO+NOW]&facet.query={!key%3Dfecha|hace-2-dias}fecha_publicacion:[NOW-2DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-semana}fecha_publicacion:[NOW-7DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-quincena}fecha_publicacion:[NOW-15DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultimo-mes}fecha_publicacion:[NOW-1MONTH/DAY+TO+NOW]&facet.query={!key%3Dsalario|0-750}price:1+AND+price2:750&facet.query={!key%3Dsalario|751-1500}price:751+AND+price2:1500&facet.query={!key%3Dsalario|1501-3000}price:1501+AND+price2:3000&facet.query={!key%3Dsalario|3001-6000}price:3001+AND+price2:6000&facet.query={!key%3Dsalario|6001-10000}price:6001+AND+price2:10000&facet.query={!key%3Dsalario|mas-10000}price:10001+AND+price2:*&q=*:*&facet.limit=100000&omitHeader=true&f.discapacidad.facet.sort=false&f.ubicacion.facet.sort=false&wt=json&facet=true} hits=17340 status=400 QTime=36 
+2016-05-19 01:24:14.723 INFO  (qtp428746855-18) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} hits=17340 status=0 QTime=0 
+2016-05-19 01:24:14.723 INFO  (qtp428746855-18) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} status=0 QTime=0 
+2016-05-19 01:24:14.729 ERROR (qtp428746855-13) [   x:aviso] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field price
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:762)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:546)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCount(SimpleFacets.java:333)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCounts(SimpleFacets.java:323)
+	at org.apache.solr.handler.component.FacetComponent.getFacetCounts(FacetComponent.java:293)
+	at org.apache.solr.handler.component.FacetComponent.process(FacetComponent.java:256)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:277)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-19 01:24:14.729 INFO  (qtp428746855-13) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/select params={facet.field={!key%3Darea}area&facet.field={!key%3Dnivel}nivel&facet.field={!key%3Dubicacion}ubicacion&facet.field={!key%3Ddiscapacidad}discapacidad&facet.field={!key%3Ddataempresa}dataempresa&json.nl=flat&fl=*,score&start=0&sort=destacado+desc,fecha_publicacion+desc&rows=20&facet.query={!key%3Dfecha|hoy}fecha_publicacion:[NOW-5HOURS/DAY+TO+NOW]&facet.query={!key%3Dfecha|hace-2-dias}fecha_publicacion:[NOW-2DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-semana}fecha_publicacion:[NOW-7DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-quincena}fecha_publicacion:[NOW-15DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultimo-mes}fecha_publicacion:[NOW-1MONTH/DAY+TO+NOW]&facet.query={!key%3Dsalario|0-750}price:1+AND+price2:750&facet.query={!key%3Dsalario|751-1500}price:751+AND+price2:1500&facet.query={!key%3Dsalario|1501-3000}price:1501+AND+price2:3000&facet.query={!key%3Dsalario|3001-6000}price:3001+AND+price2:6000&facet.query={!key%3Dsalario|6001-10000}price:6001+AND+price2:10000&facet.query={!key%3Dsalario|mas-10000}price:10001+AND+price2:*&q=*:*&facet.limit=100000&omitHeader=true&f.discapacidad.facet.sort=false&f.ubicacion.facet.sort=false&wt=json&facet=true} hits=17340 status=400 QTime=3 
+2016-05-19 01:24:15.345 INFO  (qtp428746855-16) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} hits=17340 status=0 QTime=0 
+2016-05-19 01:24:15.345 INFO  (qtp428746855-16) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} status=0 QTime=0 
+2016-05-19 01:24:15.351 ERROR (qtp428746855-20) [   x:aviso] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field price
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:762)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:546)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCount(SimpleFacets.java:333)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCounts(SimpleFacets.java:323)
+	at org.apache.solr.handler.component.FacetComponent.getFacetCounts(FacetComponent.java:293)
+	at org.apache.solr.handler.component.FacetComponent.process(FacetComponent.java:256)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:277)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-19 01:24:15.351 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/select params={facet.field={!key%3Darea}area&facet.field={!key%3Dnivel}nivel&facet.field={!key%3Dubicacion}ubicacion&facet.field={!key%3Ddiscapacidad}discapacidad&facet.field={!key%3Ddataempresa}dataempresa&json.nl=flat&fl=*,score&start=0&sort=destacado+desc,fecha_publicacion+desc&rows=20&facet.query={!key%3Dfecha|hoy}fecha_publicacion:[NOW-5HOURS/DAY+TO+NOW]&facet.query={!key%3Dfecha|hace-2-dias}fecha_publicacion:[NOW-2DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-semana}fecha_publicacion:[NOW-7DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-quincena}fecha_publicacion:[NOW-15DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultimo-mes}fecha_publicacion:[NOW-1MONTH/DAY+TO+NOW]&facet.query={!key%3Dsalario|0-750}price:1+AND+price2:750&facet.query={!key%3Dsalario|751-1500}price:751+AND+price2:1500&facet.query={!key%3Dsalario|1501-3000}price:1501+AND+price2:3000&facet.query={!key%3Dsalario|3001-6000}price:3001+AND+price2:6000&facet.query={!key%3Dsalario|6001-10000}price:6001+AND+price2:10000&facet.query={!key%3Dsalario|mas-10000}price:10001+AND+price2:*&q=*:*&facet.limit=100000&omitHeader=true&f.discapacidad.facet.sort=false&f.ubicacion.facet.sort=false&wt=json&facet=true} hits=17340 status=400 QTime=3 
+2016-05-19 01:24:15.825 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} hits=17340 status=0 QTime=0 
+2016-05-19 01:24:15.825 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} status=0 QTime=0 
+2016-05-19 01:24:15.831 ERROR (qtp428746855-21) [   x:aviso] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field price
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:762)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:546)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCount(SimpleFacets.java:333)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCounts(SimpleFacets.java:323)
+	at org.apache.solr.handler.component.FacetComponent.getFacetCounts(FacetComponent.java:293)
+	at org.apache.solr.handler.component.FacetComponent.process(FacetComponent.java:256)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:277)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-19 01:24:15.831 INFO  (qtp428746855-21) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/select params={facet.field={!key%3Darea}area&facet.field={!key%3Dnivel}nivel&facet.field={!key%3Dubicacion}ubicacion&facet.field={!key%3Ddiscapacidad}discapacidad&facet.field={!key%3Ddataempresa}dataempresa&json.nl=flat&fl=*,score&start=0&sort=destacado+desc,fecha_publicacion+desc&rows=20&facet.query={!key%3Dfecha|hoy}fecha_publicacion:[NOW-5HOURS/DAY+TO+NOW]&facet.query={!key%3Dfecha|hace-2-dias}fecha_publicacion:[NOW-2DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-semana}fecha_publicacion:[NOW-7DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-quincena}fecha_publicacion:[NOW-15DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultimo-mes}fecha_publicacion:[NOW-1MONTH/DAY+TO+NOW]&facet.query={!key%3Dsalario|0-750}price:1+AND+price2:750&facet.query={!key%3Dsalario|751-1500}price:751+AND+price2:1500&facet.query={!key%3Dsalario|1501-3000}price:1501+AND+price2:3000&facet.query={!key%3Dsalario|3001-6000}price:3001+AND+price2:6000&facet.query={!key%3Dsalario|6001-10000}price:6001+AND+price2:10000&facet.query={!key%3Dsalario|mas-10000}price:10001+AND+price2:*&q=*:*&facet.limit=100000&omitHeader=true&f.discapacidad.facet.sort=false&f.ubicacion.facet.sort=false&wt=json&facet=true} hits=17340 status=400 QTime=3 
+2016-05-19 01:24:16.163 INFO  (qtp428746855-14) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} hits=17340 status=0 QTime=0 
+2016-05-19 01:24:16.163 INFO  (qtp428746855-14) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} status=0 QTime=0 
+2016-05-19 01:24:16.168 ERROR (qtp428746855-18) [   x:aviso] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field price
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:762)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:546)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCount(SimpleFacets.java:333)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCounts(SimpleFacets.java:323)
+	at org.apache.solr.handler.component.FacetComponent.getFacetCounts(FacetComponent.java:293)
+	at org.apache.solr.handler.component.FacetComponent.process(FacetComponent.java:256)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:277)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-19 01:24:16.168 INFO  (qtp428746855-18) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/select params={facet.field={!key%3Darea}area&facet.field={!key%3Dnivel}nivel&facet.field={!key%3Dubicacion}ubicacion&facet.field={!key%3Ddiscapacidad}discapacidad&facet.field={!key%3Ddataempresa}dataempresa&json.nl=flat&fl=*,score&start=0&sort=destacado+desc,fecha_publicacion+desc&rows=20&facet.query={!key%3Dfecha|hoy}fecha_publicacion:[NOW-5HOURS/DAY+TO+NOW]&facet.query={!key%3Dfecha|hace-2-dias}fecha_publicacion:[NOW-2DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-semana}fecha_publicacion:[NOW-7DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-quincena}fecha_publicacion:[NOW-15DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultimo-mes}fecha_publicacion:[NOW-1MONTH/DAY+TO+NOW]&facet.query={!key%3Dsalario|0-750}price:1+AND+price2:750&facet.query={!key%3Dsalario|751-1500}price:751+AND+price2:1500&facet.query={!key%3Dsalario|1501-3000}price:1501+AND+price2:3000&facet.query={!key%3Dsalario|3001-6000}price:3001+AND+price2:6000&facet.query={!key%3Dsalario|6001-10000}price:6001+AND+price2:10000&facet.query={!key%3Dsalario|mas-10000}price:10001+AND+price2:*&q=*:*&facet.limit=100000&omitHeader=true&f.discapacidad.facet.sort=false&f.ubicacion.facet.sort=false&wt=json&facet=true} hits=17340 status=400 QTime=3 
+2016-05-19 01:24:16.430 INFO  (qtp428746855-13) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} hits=17340 status=0 QTime=0 
+2016-05-19 01:24:16.430 INFO  (qtp428746855-13) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} status=0 QTime=0 
+2016-05-19 01:24:16.435 ERROR (qtp428746855-16) [   x:aviso] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field price
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:762)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:546)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCount(SimpleFacets.java:333)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCounts(SimpleFacets.java:323)
+	at org.apache.solr.handler.component.FacetComponent.getFacetCounts(FacetComponent.java:293)
+	at org.apache.solr.handler.component.FacetComponent.process(FacetComponent.java:256)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:277)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-19 01:24:16.436 INFO  (qtp428746855-16) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/select params={facet.field={!key%3Darea}area&facet.field={!key%3Dnivel}nivel&facet.field={!key%3Dubicacion}ubicacion&facet.field={!key%3Ddiscapacidad}discapacidad&facet.field={!key%3Ddataempresa}dataempresa&json.nl=flat&fl=*,score&start=0&sort=destacado+desc,fecha_publicacion+desc&rows=20&facet.query={!key%3Dfecha|hoy}fecha_publicacion:[NOW-5HOURS/DAY+TO+NOW]&facet.query={!key%3Dfecha|hace-2-dias}fecha_publicacion:[NOW-2DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-semana}fecha_publicacion:[NOW-7DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-quincena}fecha_publicacion:[NOW-15DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultimo-mes}fecha_publicacion:[NOW-1MONTH/DAY+TO+NOW]&facet.query={!key%3Dsalario|0-750}price:1+AND+price2:750&facet.query={!key%3Dsalario|751-1500}price:751+AND+price2:1500&facet.query={!key%3Dsalario|1501-3000}price:1501+AND+price2:3000&facet.query={!key%3Dsalario|3001-6000}price:3001+AND+price2:6000&facet.query={!key%3Dsalario|6001-10000}price:6001+AND+price2:10000&facet.query={!key%3Dsalario|mas-10000}price:10001+AND+price2:*&q=*:*&facet.limit=100000&omitHeader=true&f.discapacidad.facet.sort=false&f.ubicacion.facet.sort=false&wt=json&facet=true} hits=17340 status=400 QTime=3 
+2016-05-19 01:24:16.662 INFO  (qtp428746855-14) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} hits=17340 status=0 QTime=0 
+2016-05-19 01:24:16.662 INFO  (qtp428746855-14) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} status=0 QTime=0 
+2016-05-19 01:24:16.668 ERROR (qtp428746855-18) [   x:aviso] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field price
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:762)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:546)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCount(SimpleFacets.java:333)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCounts(SimpleFacets.java:323)
+	at org.apache.solr.handler.component.FacetComponent.getFacetCounts(FacetComponent.java:293)
+	at org.apache.solr.handler.component.FacetComponent.process(FacetComponent.java:256)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:277)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-19 01:24:16.668 INFO  (qtp428746855-18) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/select params={facet.field={!key%3Darea}area&facet.field={!key%3Dnivel}nivel&facet.field={!key%3Dubicacion}ubicacion&facet.field={!key%3Ddiscapacidad}discapacidad&facet.field={!key%3Ddataempresa}dataempresa&json.nl=flat&fl=*,score&start=0&sort=destacado+desc,fecha_publicacion+desc&rows=20&facet.query={!key%3Dfecha|hoy}fecha_publicacion:[NOW-5HOURS/DAY+TO+NOW]&facet.query={!key%3Dfecha|hace-2-dias}fecha_publicacion:[NOW-2DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-semana}fecha_publicacion:[NOW-7DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-quincena}fecha_publicacion:[NOW-15DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultimo-mes}fecha_publicacion:[NOW-1MONTH/DAY+TO+NOW]&facet.query={!key%3Dsalario|0-750}price:1+AND+price2:750&facet.query={!key%3Dsalario|751-1500}price:751+AND+price2:1500&facet.query={!key%3Dsalario|1501-3000}price:1501+AND+price2:3000&facet.query={!key%3Dsalario|3001-6000}price:3001+AND+price2:6000&facet.query={!key%3Dsalario|6001-10000}price:6001+AND+price2:10000&facet.query={!key%3Dsalario|mas-10000}price:10001+AND+price2:*&q=*:*&facet.limit=100000&omitHeader=true&f.discapacidad.facet.sort=false&f.ubicacion.facet.sort=false&wt=json&facet=true} hits=17340 status=400 QTime=3 
+2016-05-19 01:24:38.014 INFO  (qtp428746855-21) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/select params={q=*:*&indent=true&rows=100&wt=json&_=1463621078005} hits=17340 status=0 QTime=3 
+2016-05-19 01:25:14.746 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} hits=17340 status=0 QTime=0 
+2016-05-19 01:25:14.746 INFO  (qtp428746855-20) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} status=0 QTime=0 
+2016-05-19 01:25:14.752 ERROR (qtp428746855-19) [   x:aviso] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field price
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:762)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:546)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCount(SimpleFacets.java:333)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCounts(SimpleFacets.java:323)
+	at org.apache.solr.handler.component.FacetComponent.getFacetCounts(FacetComponent.java:293)
+	at org.apache.solr.handler.component.FacetComponent.process(FacetComponent.java:256)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:277)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-19 01:25:14.752 INFO  (qtp428746855-19) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/select params={facet.field={!key%3Darea}area&facet.field={!key%3Dnivel}nivel&facet.field={!key%3Dubicacion}ubicacion&facet.field={!key%3Ddiscapacidad}discapacidad&facet.field={!key%3Ddataempresa}dataempresa&json.nl=flat&fl=*,score&start=0&sort=destacado+desc,fecha_publicacion+desc&rows=20&facet.query={!key%3Dfecha|hoy}fecha_publicacion:[NOW-5HOURS/DAY+TO+NOW]&facet.query={!key%3Dfecha|hace-2-dias}fecha_publicacion:[NOW-2DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-semana}fecha_publicacion:[NOW-7DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-quincena}fecha_publicacion:[NOW-15DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultimo-mes}fecha_publicacion:[NOW-1MONTH/DAY+TO+NOW]&facet.query={!key%3Dsalario|0-750}price:1+AND+price2:750&facet.query={!key%3Dsalario|751-1500}price:751+AND+price2:1500&facet.query={!key%3Dsalario|1501-3000}price:1501+AND+price2:3000&facet.query={!key%3Dsalario|3001-6000}price:3001+AND+price2:6000&facet.query={!key%3Dsalario|6001-10000}price:6001+AND+price2:10000&facet.query={!key%3Dsalario|mas-10000}price:10001+AND+price2:*&q=*:*&facet.limit=100000&omitHeader=true&f.discapacidad.facet.sort=false&f.ubicacion.facet.sort=false&wt=json&facet=true} hits=17340 status=400 QTime=2 
+2016-05-19 01:25:15.499 INFO  (qtp428746855-13) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} hits=17340 status=0 QTime=0 
+2016-05-19 01:25:15.499 INFO  (qtp428746855-13) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} status=0 QTime=0 
+2016-05-19 01:25:15.515 ERROR (qtp428746855-21) [   x:aviso] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field price
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:762)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:546)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCount(SimpleFacets.java:333)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCounts(SimpleFacets.java:323)
+	at org.apache.solr.handler.component.FacetComponent.getFacetCounts(FacetComponent.java:293)
+	at org.apache.solr.handler.component.FacetComponent.process(FacetComponent.java:256)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:277)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-19 01:25:15.516 INFO  (qtp428746855-21) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/select params={facet.field={!key%3Darea}area&facet.field={!key%3Dnivel}nivel&facet.field={!key%3Dubicacion}ubicacion&facet.field={!key%3Ddiscapacidad}discapacidad&facet.field={!key%3Ddataempresa}dataempresa&json.nl=flat&fl=*,score&start=0&sort=destacado+desc,fecha_publicacion+desc&rows=20&facet.query={!key%3Dfecha|hoy}fecha_publicacion:[NOW-5HOURS/DAY+TO+NOW]&facet.query={!key%3Dfecha|hace-2-dias}fecha_publicacion:[NOW-2DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-semana}fecha_publicacion:[NOW-7DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-quincena}fecha_publicacion:[NOW-15DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultimo-mes}fecha_publicacion:[NOW-1MONTH/DAY+TO+NOW]&facet.query={!key%3Dsalario|0-750}price:1+AND+price2:750&facet.query={!key%3Dsalario|751-1500}price:751+AND+price2:1500&facet.query={!key%3Dsalario|1501-3000}price:1501+AND+price2:3000&facet.query={!key%3Dsalario|3001-6000}price:3001+AND+price2:6000&facet.query={!key%3Dsalario|6001-10000}price:6001+AND+price2:10000&facet.query={!key%3Dsalario|mas-10000}price:10001+AND+price2:*&q=*:*&facet.limit=100000&omitHeader=true&f.discapacidad.facet.sort=false&f.ubicacion.facet.sort=false&wt=json&facet=true} hits=17340 status=400 QTime=2 
+2016-05-19 01:25:19.956 INFO  (qtp428746855-13) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} hits=17340 status=0 QTime=0 
+2016-05-19 01:25:19.956 INFO  (qtp428746855-13) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/admin/ping params={json.nl=flat&omitHeader=true&wt=json} status=0 QTime=0 
+2016-05-19 01:25:19.960 ERROR (qtp428746855-21) [   x:aviso] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field price
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:762)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:546)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCount(SimpleFacets.java:333)
+	at org.apache.solr.request.SimpleFacets.getFacetQueryCounts(SimpleFacets.java:323)
+	at org.apache.solr.handler.component.FacetComponent.getFacetCounts(FacetComponent.java:293)
+	at org.apache.solr.handler.component.FacetComponent.process(FacetComponent.java:256)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:277)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-05-19 01:25:19.961 INFO  (qtp428746855-21) [   x:aviso] o.a.s.c.S.Request [aviso] webapp=/solr path=/select params={facet.field={!key%3Darea}area&facet.field={!key%3Dnivel}nivel&facet.field={!key%3Dubicacion}ubicacion&facet.field={!key%3Ddiscapacidad}discapacidad&facet.field={!key%3Ddataempresa}dataempresa&json.nl=flat&fl=*,score&start=0&sort=destacado+desc,fecha_publicacion+desc&rows=20&facet.query={!key%3Dfecha|hoy}fecha_publicacion:[NOW-5HOURS/DAY+TO+NOW]&facet.query={!key%3Dfecha|hace-2-dias}fecha_publicacion:[NOW-2DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-semana}fecha_publicacion:[NOW-7DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultima-quincena}fecha_publicacion:[NOW-15DAYS/DAY+TO+NOW]&facet.query={!key%3Dfecha|ultimo-mes}fecha_publicacion:[NOW-1MONTH/DAY+TO+NOW]&facet.query={!key%3Dsalario|0-750}price:1+AND+price2:750&facet.query={!key%3Dsalario|751-1500}price:751+AND+price2:1500&facet.query={!key%3Dsalario|1501-3000}price:1501+AND+price2:3000&facet.query={!key%3Dsalario|3001-6000}price:3001+AND+price2:6000&facet.query={!key%3Dsalario|6001-10000}price:6001+AND+price2:10000&facet.query={!key%3Dsalario|mas-10000}price:10001+AND+price2:*&q=*:*&facet.limit=100000&omitHeader=true&f.discapacidad.facet.sort=false&f.ubicacion.facet.sort=false&wt=json&facet=true} hits=17340 status=400 QTime=3 
+2016-05-19 01:32:30.096 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@7bba5817{HTTP/1.1}{0.0.0.0:8983}
+2016-05-19 01:32:30.100 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1276261147
+2016-05-19 01:32:30.102 INFO  (ShutdownMonitor) [   x:aviso] o.a.s.c.SolrCore [aviso]  CLOSING SolrCore org.apache.solr.core.SolrCore@6fb06dc0
+2016-05-19 01:32:30.102 INFO  (ShutdownMonitor) [   x:aviso] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=1,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=17340,cumulative_deletesById=0,cumulative_deletesByQuery=1,cumulative_errors=0,transaction_logs_total_size=7215151,transaction_logs_total_number=1}
+2016-05-19 01:32:30.102 INFO  (ShutdownMonitor) [   x:aviso] o.a.s.u.SolrCoreState Closing SolrCoreState
+2016-05-19 01:32:30.103 INFO  (ShutdownMonitor) [   x:aviso] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2016-05-19 01:32:30.103 INFO  (ShutdownMonitor) [   x:aviso] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2016-05-19 01:32:30.103 INFO  (ShutdownMonitor) [   x:aviso] o.a.s.c.SolrCore [aviso] Closing main searcher on request.
+2016-05-19 01:32:30.104 INFO  (ShutdownMonitor) [   x:aviso] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2016-05-19 01:32:30.105 INFO  (ShutdownMonitor) [   x:aviso] o.a.s.c.CachingDirectoryFactory looking to close /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index [CachedDir<<refCount=0;path=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index;done=false>>]
+2016-05-19 01:32:30.105 INFO  (ShutdownMonitor) [   x:aviso] o.a.s.c.CachingDirectoryFactory Closing directory: /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data/index
+2016-05-19 01:32:30.105 INFO  (ShutdownMonitor) [   x:aviso] o.a.s.c.CachingDirectoryFactory looking to close /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data [CachedDir<<refCount=0;path=/home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data;done=false>>]
+2016-05-19 01:32:30.105 INFO  (ShutdownMonitor) [   x:aviso] o.a.s.c.CachingDirectoryFactory Closing directory: /home/ronald/Sistemas/solr-trabajobusco/server/solr/aviso/data
+2016-05-19 01:32:30.106 INFO  (ShutdownMonitor) [   x:aviso] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@271053e1{/solr,file:/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp/,UNAVAILABLE}{/home/ronald/Sistemas/solr-trabajobusco/server/solr-webapp/webapp}
